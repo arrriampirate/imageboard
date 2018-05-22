@@ -8,3 +8,9 @@
 - Открытие на весь экран во всплывающем окне
 
 Используемые технологии: Docker, Node.js, MongoDB, Express.js, React.js
+
+Установка: http://localhost:3000/
+
+ ```bash
+  docker-compose up --build
+  ```
