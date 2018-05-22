@@ -16,7 +16,7 @@ app.use(bodyParser.urlencoded({ extended: false }));
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'ejs');
 
-mongoose.connect('mongodb://localhost:27017/imageboard');
+mongoose.connect('mongodb://database:27017/imageboard');
 
 const multerConfig = {
     storage: multer.diskStorage({
